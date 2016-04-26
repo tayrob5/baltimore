@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Crime in Baltimore</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <link href="css/twitter-styles.css" rel="stylesheet" type="text/css" />
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top"  onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#top" onclick = $("#menu-close").click(); >Home</a>
+            </li>
+            <li>
+                <a href="#map" onclick = $("#menu-close").click(); >Map</a>
+            </li>
+            <li>
+                <a href="#news" onclick = $("#menu-close").click(); >News</a>
+            </li>
+            <li>
+                <a href="#portfolio" onclick = $("#menu-close").click(); >Social</a>
+            </li>
+            <li>
+                <a href="#contact" onclick = $("#menu-close").click(); >Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1>Crime in Baltimore</h1>
+            <h3>Baltimore is one of the <b>most dangerous</b> cities in America. <br>The crime rate <b>continues to rise</b>. <br>Shootings and homicides <b>are the norm</b>.</h3>
+            <br>
+            <a href="#map-info" class="btn btn-dark btn-lg">Show Me</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="map-info" class="map-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+
+                    <p class="lead">The map below contains all of the shootings and homicides since 2011. Data is updated live. Zoom in to see indicidual crimes.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section id="map" class="map">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+
+                    <div id="map"></div>
+
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+    <section id="news" class="services bg-primary">
+        <div class="container">
+
+
+        <center>  <!-- start feedwind code --><script type="text/javascript">document.write('\x3Cscript type="text/javascript" src="' + ('https:' == document.location.protocol ? 'https://' : 'http://') + 'feed.mikle.com/js/rssmikle.js">\x3C/script>');</script><script type="text/javascript">(function() {var params = {rssmikle_url: "http://www.baltimoresun.com/news/maryland/crime/blog/rss2.0.xml",rssmikle_frame_width: "400",rssmikle_frame_height: "400",frame_height_by_article: "4",rssmikle_target: "_blank",rssmikle_font: "Arial, Helvetica, sans-serif",rssmikle_font_size: "12",rssmikle_border: "off",responsive: "off",rssmikle_css_url: "",text_align: "left",text_align2: "left",corner: "off",scrollbar: "on",autoscroll: "on",scrolldirection: "up",scrollstep: "4",mcspeed: "20",sort: "New",rssmikle_title: "on",rssmikle_title_sentence: "News",rssmikle_title_link: "",rssmikle_title_bgcolor: "#142B77",rssmikle_title_color: "#FFFFFF",rssmikle_title_bgimage: "",rssmikle_item_bgcolor: "#FFFFFF",rssmikle_item_bgimage: "",rssmikle_item_title_length: "55",rssmikle_item_title_color: "#142B77",rssmikle_item_border_bottom: "on",rssmikle_item_description: "on",item_link: "off",rssmikle_item_description_length: "150",rssmikle_item_description_color: "#666666",rssmikle_item_date: "gl1",rssmikle_timezone: "Etc/GMT",datetime_format: "%b %e, %Y %l:%M %p",item_description_style: "text+tn",item_thumbnail: "full",item_thumbnail_selection: "auto",article_num: "15",rssmikle_item_podcast: "off",keyword_inc: "",keyword_exc: ""};feedwind_show_widget_iframe(params);})();</script><div style="font-size:10px; text-align:center; width:400px;"></center><!-- end feedwind code --><!--  end  feedwind code -->
+
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+              <div id="twitter-feed"></div>
+
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>The buttons below are impossible to resist.</h3>
+                    <a href="#" class="btn btn-lg btn-light">Click Me!</a>
+                    <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>Start Bootstrap</strong>
+                    </h4>
+                    <p>3481 Melrose Place<br>Beverly Hills, CA 90210</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-phone fa-fw"></i> (123) 456-7890</li>
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:name@example.com">name@example.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/twitterfeed.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvemcfzIvxBfrCg-6W_7UKYcDLPhps0_E&libraries=visualization&callback=initMap"
+    async defer ></script>
+
+    <script>
+    var googleMapsLoaded = false;
+    var docReady = false;
+
+
+    // $( document ).ready(function() {
+    //     console.log( "ready!" );
+    //     docReady = true;
+    //     readyTest();
+    // });
+    //
+    // function isReady(){
+    //   console.log("is ready");
+    //   googleMapsLoaded = true;
+    //   readyTest();
+    // }
+    //
+    // function readyTest(){
+    //   if (googleMapsLoaded && docReady){
+    //     initMap();
+    //   }
+    //   else{
+    //     console.log(googleMapsLoaded);
+    //     console.log(docReady);
+    //   }
+    // }
+
+      var map;
+       function initMap() {
+         var infowindow = new google.maps.InfoWindow();
+         var mapDiv = document.getElementById('map');
+             var map = new google.maps.Map(mapDiv, {
+               center: {lat: 39.2888414, lng: -76.6099112},
+               zoom: 12,
+               scrollwheel: false
+       });
+
+       map.data.loadGeoJson('https://data.baltimorecity.gov/resource/4ih5-d5d5.geojson?description=SHOOTING');
+       map.data.loadGeoJson('https://data.baltimorecity.gov/resource/4ih5-d5d5.geojson?description=HOMICIDE');
+
+       google.maps.event.addListener(map, 'click', function() {
+         infowindow.close();
+         });
+
+       var data;
+       $.ajax({
+          dataType: "json",
+          url: "https://data.baltimorecity.gov/resource/4ih5-d5d5.geojson?description=SHOOTING",
+          data: data,
+          success: letsGo
+        });
+      //var mapData = $.getJSON('https://data.baltimorecity.gov/resource/4ih5-d5d5.geojson?description=SHOOTING');
+      //mapData += JSON.get('https://data.baltimorecity.gov/resource/4ih5-d5d5.geojson?description=HOMICIDE');
+      var JSONLoaded;
+
+      // if (mapData.readyState != 4){
+      //   JSONLoaded = false;
+      //   checkLoad();
+      // }
+      // else{
+      //   JSONLoaded = true;
+      //   checkLoad();
+      // }
+
+      // function checkLoad(){
+      //   if (mapData.readyState = 4){
+      //     JSONLoaded = true;
+      //     //letsGo();
+      //     console.log(mapData.readyState);
+      //     console.log(mapData.responseJSON);
+      //   }else{
+      //     JSONLoaded = false;
+      //     checkLoad();
+      //   }
+      // }
+      // console.log(mapData.readyState);
+      // console.log(mapData.responseJSON.features);
+       var latLngList = [];
+      var heatMapData = [];
+
+       function letsGo(mapData){
+         console.log(mapData.features.length);
+
+       for (i=0; i < mapData.features.length; i++){
+       tempLocation = mapData.features[i]
+       latLngList.push(tempLocation.geometry.coordinates);
+       //console.log(latLngList);
+        }
+
+     console.log(latLngList);
+     console.log(latLngList.length);
+       for (i=0; i < latLngList.length; i++){
+         var tempLat = latLngList[i][1];
+         var tempLong = latLngList[i][0];
+         var tempVar = new google.maps.LatLng(tempLat, tempLong);
+         heatMapData.push(new google.maps.LatLng(tempLat, tempLong));
+        //  console.log(tempLat);
+        //  console.log(tempLong);
+       }
+
+ var pointArray = new google.maps.MVCArray(heatMapData);
+
+ console.log(pointArray);
+
+       var heatmap = new google.maps.visualization.HeatmapLayer({
+         data: pointArray,
+         radius: 20,
+         dissipating: true
+       });
+
+       console.log("got to heatmap");
+       heatmap.setMap(map);
+       map.data.setMap(null);
+
+      google.maps.event.addListener(map, 'zoom_changed', function() {
+       var zoom = map.getZoom();
+       if (zoom > 13) {
+         // hide the heatmap, show the markers
+         heatmap.setMap(null);
+         map.data.setMap(map);
+
+       } else {
+         // hide the markers, show the heatmap
+         heatmap.setMap(map);
+         map.data.setMap(null);
+       }
+     })
+
+     }
+
+
+
+       map.data.addListener('click', function(event) {
+            infowindow.setContent(event.feature.getProperty('description')+"<br>"+event.feature.getProperty('crimedate'));
+            infowindow.setPosition(event.latLng);
+            infowindow.setOptions({pixelOffset: new google.maps.Size(0,-34)});
+            infowindow.open(map);
+         });
+       google.maps.event.addDomListener(window, 'load', initMap);
+       }
+    </script>
+
+
+</body>
+
+</html>
